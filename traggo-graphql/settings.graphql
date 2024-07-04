@@ -1,0 +1,8 @@
+query Settings {
+    userSettings {
+        theme    
+        dateLocale    
+        firstDayOfTheWeek    
+        __typename  
+    }
+}

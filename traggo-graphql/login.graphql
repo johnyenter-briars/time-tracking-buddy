@@ -1,0 +1,12 @@
+mutation Login($name: String!, $pass: String!, $deviceType: DeviceType!) {
+  login(username: $name, pass: $pass, deviceName: "web ui", type: $deviceType, cookie: true) {
+    user {
+      id
+      name
+      admin
+      __typename
+    }
+    __typename
+  }
+}
+
